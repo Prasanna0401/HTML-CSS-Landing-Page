@@ -316,8 +316,9 @@ section .top .bg img{
   bottom: 159px;
 }
 
-section .card1{
+section .card-1{
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -414,7 +415,7 @@ section .card1{
   margin-left: 39%;
 }
 
-.place .card1{
+.place .card-1{
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
